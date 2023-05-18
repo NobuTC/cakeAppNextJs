@@ -23,13 +23,13 @@ export default function Header() {
               className="h-6 w-6"
               fill="none"
               viewBox="0 0 24 24"
-              stroke-width="1.5"
+              strokeWidth="1.5"
               stroke="currentColor"
               aria-hidden="true"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
                 d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
               />
             </svg>
@@ -37,16 +37,16 @@ export default function Header() {
         </div>
         <div className="hidden lg:flex lg:gap-x-12">
           <Link
-            href="/blog"
+            href="/list"
             className="text-sm font-semibold leading-6 text-gray-900"
           >
-            Recipes
+            Reseptit
           </Link>
           <Link
             href="/aboutme"
             className="text-sm font-semibold leading-6 text-gray-900"
           >
-            About me
+            Minusta
           </Link>
         </div>
       </nav>
@@ -69,13 +69,13 @@ export default function Header() {
                 className="h-6 w-6"
                 fill="none"
                 viewBox="0 0 24 24"
-                stroke-width="1.5"
+                strokeWidth="1.5"
                 stroke="currentColor"
                 aria-hidden="true"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M6 18L18 6M6 6l12 12"
                 />
               </svg>
@@ -85,12 +85,12 @@ export default function Header() {
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
                 <Link
-                  href="/blog"
+                  href="/list"
                   className="-mx-3 block rounded-lg px-3 py-2
                   text-base font-semibold leading-7 text-gray-900
                   hover:bg-gray-50"
                 >
-                  Recipes
+                  Reseptit
                 </Link>
                 <Link
                   href="/aboutme"
@@ -98,7 +98,7 @@ export default function Header() {
                   text-base font-semibold leading-7 text-gray-900
                   hover:bg-gray-50"
                 >
-                  About me
+                  Minusta
                 </Link>
               </div>
             </div>

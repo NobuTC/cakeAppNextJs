@@ -14,9 +14,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <Header />
-        {children}
-        <Footer />
+        <div clasName="wrapper flex-grow">
+          <Header />
+          <div className="content flex-grow"> {children}</div>
+          <Footer />
+        </div>
       </body>
     </html>
   );

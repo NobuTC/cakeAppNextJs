@@ -1,8 +1,8 @@
 import "./blog.css";
 
 export const metadata = {
-  title: "blog",
-  description: "blog page",
+  title: "Resepti",
+  description: "Reseptit",
 };
 
 export default function RootLayout({ children }) {
