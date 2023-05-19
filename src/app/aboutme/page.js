@@ -4,8 +4,8 @@ import "./aboutme.css";
 export default function AboutMe() {
   return (
     <div className=" p-8 rounded-lg flex wrapper container">
-      <div className="upper-block flex items-center">
-        <div className="w-1/2 p-19">
+      <div className="upper-block flex flex-col md:flex-row items-center">
+        <div className=" p-19 w-full md:w-1/2">
           <div className="">
             <h1 className="text-4xl font-bold mb-4">Eka blogi</h1>
           </div>
@@ -16,11 +16,11 @@ export default function AboutMe() {
             </p>
           </div>
           <div className="flex p-4">
-            <div className="">
+            <div className="mr-5">
               <img
-                src="/images/suklaakakku.jpeg"
+                src="/images/CvPicture.jpeg"
                 alt="Circle Image"
-                className="h-10 rounded-full mr-2"
+                className=" w-10 rounded-full mr-2"
               />
             </div>
             <div className="">
@@ -31,8 +31,12 @@ export default function AboutMe() {
             </div>
           </div>
         </div>
-        <div className="w-1/2 p-3 ">
-          <img src="/images/cheesycake.png" alt="Image" className="w-full" />
+        <div className="w-full md:w-1/2">
+          <img
+            src="/images/ArticleImg.jpg"
+            alt="Image"
+            className="w-full rounded-lg"
+          />
         </div>
       </div>
       <div className="bottom-block mt-5">
