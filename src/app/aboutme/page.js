@@ -88,8 +88,8 @@ export default function AboutMe() {
           juuri omiin tarpeisiisi sopivaksi! Esimerkiksi voit lisätä vaikka
           passionin, jolloin siitä tulee Mango-juustopassionkakku. Tai jos et
           halua mangoa, niin voit korjata sen mansikalla tai jopa vademalla.
-          Tämä resepti löytyy minun "Reseptit" kohdalla, jos haluat kurkata
-          miten tämä ihana kakku valmistellaan.
+          Tämä resepti löytyy minun &quot;Reseptit&quot; kohdalla, jos haluat
+          kurkata miten tämä ihana kakku valmistellaan.
         </p>
 
         <p className="text-lg mt-2">

@@ -1,9 +1,9 @@
-import { Ysabeau } from "next/font/google";
+import { Playfair_Display } from "next/font/google";
 import Header from "./header";
 import Footer from "./footer";
 import "./globals.css";
 
-const dancingScript = Ysabeau({ subsets: ["latin"] });
+const dancingScript = Playfair_Display({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Homepage",
