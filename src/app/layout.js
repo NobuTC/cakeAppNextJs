@@ -13,6 +13,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <meta name="color-scheme" content="light only"></meta>
       <body className={dancingScript.className}>
         <div className={`wrapper flex-grow `}>
           <Header />
