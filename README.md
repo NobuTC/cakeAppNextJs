@@ -4,7 +4,7 @@ Kakku sivusto käytetty Next.js ja React.js
 
 ## Demo App
 
-https://cake-indol.vercel.app/
+https://jennicake.vercel.app/
 
 ## Screenshots
 
