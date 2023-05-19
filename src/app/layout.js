@@ -1,9 +1,9 @@
-import { Inter } from "next/font/google";
+import { Ysabeau } from "next/font/google";
 import Header from "./header";
 import Footer from "./footer";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const dancingScript = Ysabeau({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Homepage",
@@ -13,8 +13,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
-        <div clasName="wrapper flex-grow">
+      <body className={dancingScript.className}>
+        <div className={`wrapper flex-grow `}>
           <Header />
           <div className="content flex-grow"> {children}</div>
           <Footer />

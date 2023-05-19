@@ -10,7 +10,7 @@ export default function Home() {
           Tervetuloa kakku maailmaan!{" "}
         </h1>
         <Link href="/list">
-          <button className="mt-4 px-4 py-2 bg-blue-500 text-white rounded-md shadow-md">
+          <button className="mt-4 px-4 py-2 bg-gray-900 text-white rounded-md shadow-md">
             Katsele kakkuja!
           </button>
         </Link>

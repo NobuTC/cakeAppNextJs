@@ -6,5 +6,5 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-  return <div className="blog">{children}</div>;
+  return <div className="blog container">{children}</div>;
 }
